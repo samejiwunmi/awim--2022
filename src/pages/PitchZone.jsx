@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Footer from '../components/Footer'
 
 const PitchZone = () => {
   return (
@@ -32,7 +33,7 @@ const PitchZone = () => {
         <p>3. Select a timeslot and input the requested details </p>
        </div>
         
-
+        <Footer />
     </div>
   )
 }

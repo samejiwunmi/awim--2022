@@ -1,6 +1,7 @@
 import React from "react";
 import ImgAbt from "../assets/Aboutus.jpg";
 import ImgWho from "../assets/Whatwedo.jpg";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -65,6 +66,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

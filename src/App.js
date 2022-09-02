@@ -10,16 +10,17 @@ import Main from "./components/Main";
 import Register from './pages/Register'
 import Footer from "./components/Footer";
 import PitchZone from "./pages/PitchZone";
+import Home from "./layout/Home";
 
 function App() {
   return (
     <div>
+
       <NavBar />
-      <Main />
-      <Footer />
       {/* <Speakers /> */}
       {/* <Main /> */}
       <Routes>
+        <Route path='/' element = { <Home />} />
         <Route path='/about' element = { <About /> } />
         <Route path='/pitchzone' element = { <PitchZone />} />
         <Route path='/register' element = { <Register /> } />

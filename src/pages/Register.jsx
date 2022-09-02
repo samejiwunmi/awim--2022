@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 const Register = () => {
   return (
@@ -133,6 +134,7 @@ const Register = () => {
         </button>
       </form>
     </div>
+    <Footer />
     </div>
   )
 }
